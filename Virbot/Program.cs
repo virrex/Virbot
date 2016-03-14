@@ -9,7 +9,9 @@ namespace Virbot
 {
     class Program
     {
-       public static DiscordClient bot;
+        public static DiscordClient bot;
+        private static string pw = "Kappa123";
+        private static string user = "virbot123@gmail.com";
         static void Main(string[] args)
         {
             var i = true;
@@ -20,7 +22,7 @@ namespace Virbot
                     bot = new DiscordClient();
                     bot.MessageReceived += Bot_MessageReceived;
                     bot.UserJoined += Bot_NewUser;
-                    bot.Connect("virbot123@gmail.com", "Kappa123");
+                    bot.Connect(user, pw);
                     bot.Wait();
                 }
                 catch
@@ -37,10 +39,10 @@ namespace Virbot
             {
                 e.Message.Channel.SendMessage
                     (
-                    e.User.Mention + " Needs backup, let's help! \n !commands : Shows you a list of all commands \n !bdo : Shows you all the commands for Black Desert Online" 
+                    e.User.Mention + " Needs backup, let's help! \n !commands : Shows you a list of all commands \n !bdo : Shows you all the commands for Black Desert Online"
                     );
             }
-            if(e.Message.Text.ToLower().Contains("!gif"))
+            if (e.Message.Text.ToLower().Contains("!gif"))
             {
                 e.Channel.SendFile("images/giphy.gif");
             }
@@ -60,7 +62,7 @@ namespace Virbot
         }
         private static void Bot_NewUser(object sender, UserEventArgs e)
         {
-            e.Server.DefaultChannel.SendMessage(e.User.Mention + " Welcome to our stronghold!");
+            e.Server.DefaultChannel.SendMessage(e.User.Mention + " Welcome to our community! \n Type " + " !help " + " to get help from Virbot Bestbot ");
         }
     }
 }

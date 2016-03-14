@@ -1,0 +1,22 @@
+c:\users\viktor\documents\visual studio 2015\Projects\Virbot\Virbot\bin\Debug\Virbot.exe.config
+c:\users\viktor\documents\visual studio 2015\Projects\Virbot\Virbot\bin\Debug\Virbot.exe
+c:\users\viktor\documents\visual studio 2015\Projects\Virbot\Virbot\bin\Debug\Virbot.pdb
+c:\users\viktor\documents\visual studio 2015\Projects\Virbot\Virbot\bin\Debug\Discord.Net.dll
+c:\users\viktor\documents\visual studio 2015\Projects\Virbot\Virbot\bin\Debug\Newtonsoft.Json.dll
+c:\users\viktor\documents\visual studio 2015\Projects\Virbot\Virbot\bin\Debug\Nito.AsyncEx.Concurrent.dll
+c:\users\viktor\documents\visual studio 2015\Projects\Virbot\Virbot\bin\Debug\Nito.AsyncEx.dll
+c:\users\viktor\documents\visual studio 2015\Projects\Virbot\Virbot\bin\Debug\Nito.AsyncEx.Enlightenment.dll
+c:\users\viktor\documents\visual studio 2015\Projects\Virbot\Virbot\bin\Debug\RestSharp.dll
+c:\users\viktor\documents\visual studio 2015\Projects\Virbot\Virbot\bin\Debug\WebSocket4Net.dll
+c:\users\viktor\documents\visual studio 2015\Projects\Virbot\Virbot\bin\Debug\Discord.Net.xml
+c:\users\viktor\documents\visual studio 2015\Projects\Virbot\Virbot\bin\Debug\Newtonsoft.Json.xml
+c:\users\viktor\documents\visual studio 2015\Projects\Virbot\Virbot\bin\Debug\Nito.AsyncEx.xml
+c:\users\viktor\documents\visual studio 2015\Projects\Virbot\Virbot\bin\Debug\Nito.AsyncEx.Concurrent.xml
+c:\users\viktor\documents\visual studio 2015\Projects\Virbot\Virbot\bin\Debug\Nito.AsyncEx.Enlightenment.xml
+c:\users\viktor\documents\visual studio 2015\Projects\Virbot\Virbot\bin\Debug\RestSharp.xml
+c:\users\viktor\documents\visual studio 2015\Projects\Virbot\Virbot\obj\Debug\Virbot.csprojResolveAssemblyReference.cache
+c:\users\viktor\documents\visual studio 2015\Projects\Virbot\Virbot\obj\Debug\Virbot.exe
+c:\users\viktor\documents\visual studio 2015\Projects\Virbot\Virbot\obj\Debug\Virbot.pdb
+C:\Users\Viktor\Source\Repos\Virbot\Virbot\bin\Debug\Virbot.exe.config
+C:\Users\Viktor\Source\Repos\Virbot\Virbot\obj\Debug\Virbot.exe
+C:\Users\Viktor\Source\Repos\Virbot\Virbot\obj\Debug\Virbot.pdb

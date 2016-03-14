@@ -26,10 +26,16 @@ namespace Virbot
                     (
                     e.User.Mention + " Needs backup, let's help! \n !commands : Shows you a list of all commands \n !bdo : Shows you all the commands for Black Desert Online" 
                     );
-
+            }
+            if(e.Message.Text.ToLower() == "!gif")
+            {
+                e.Channel.SendFile("images/giphy.gif");
+                Console.WriteLine("Gif sent");
+            }
+            if (e.Message.Text.ToLower() == "!addgif")
+            {
 
             }
-
         }
     }
 }

@@ -36,3 +36,4 @@ C:\Users\Viktor\Source\Repos\Virbot\Virbot\bin\Debug\Nito.AsyncEx.Concurrent.xml
 C:\Users\Viktor\Source\Repos\Virbot\Virbot\bin\Debug\Nito.AsyncEx.Enlightenment.xml
 C:\Users\Viktor\Source\Repos\Virbot\Virbot\bin\Debug\RestSharp.xml
 C:\Users\Viktor\Source\Repos\Virbot\Virbot\obj\Debug\Virbot.csprojResolveAssemblyReference.cache
+C:\Users\Viktor\Source\Repos\Virbot\Virbot\bin\Debug\images\giphy.gif

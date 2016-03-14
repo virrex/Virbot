@@ -37,3 +37,9 @@ C:\Users\Viktor\Source\Repos\Virbot\Virbot\bin\Debug\Nito.AsyncEx.Enlightenment.
 C:\Users\Viktor\Source\Repos\Virbot\Virbot\bin\Debug\RestSharp.xml
 C:\Users\Viktor\Source\Repos\Virbot\Virbot\obj\Debug\Virbot.csprojResolveAssemblyReference.cache
 C:\Users\Viktor\Source\Repos\Virbot\Virbot\bin\Debug\images\giphy.gif
+C:\Users\Viktor\Source\Repos\Virbot\Virbot\bin\Debug\DiscordSharp.dll
+C:\Users\Viktor\Source\Repos\Virbot\Virbot\bin\Debug\NAudio.dll
+C:\Users\Viktor\Source\Repos\Virbot\Virbot\bin\Debug\websocket-sharp.dll
+C:\Users\Viktor\Source\Repos\Virbot\Virbot\bin\Debug\DiscordSharp.pdb
+C:\Users\Viktor\Source\Repos\Virbot\Virbot\bin\Debug\NAudio.xml
+C:\Users\Viktor\Source\Repos\Virbot\Virbot\bin\Debug\websocket-sharp.xml

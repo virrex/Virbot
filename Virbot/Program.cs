@@ -12,12 +12,22 @@ namespace Virbot
        public static DiscordClient bot;
         static void Main(string[] args)
         {
-            bot = new DiscordClient();
-            
-            bot.MessageReceived += Bot_MessageReceived;
-            bot.Connect("virbot123@gmail.com", "Kappa123");
-            StartUpInfo();
-            bot.Wait();
+            var i = true;
+            while (i == true)
+            {
+                try
+                {
+                    bot = new DiscordClient();
+                    bot.MessageReceived += Bot_MessageReceived;
+                    bot.UserJoined += Bot_NewUser;
+                    bot.Connect("virbot123@gmail.com", "Kappa123");
+                    bot.Wait();
+                }
+                catch
+                {
+                    i = false;
+                }
+            }
         }
 
         private static void Bot_MessageReceived(object sender, MessageEventArgs e)
@@ -33,7 +43,6 @@ namespace Virbot
             if(e.Message.Text.ToLower().Contains("!gif"))
             {
                 e.Channel.SendFile("images/giphy.gif");
-                Console.WriteLine("Gif sent");
             }
             if (e.Message.Text.ToLower() == "!addgif")
             {
@@ -43,17 +52,15 @@ namespace Virbot
             {
                 e.Channel.SendMessage(e.User.Mention + " http://www.blackdeserttome.com/wiki/BDO_Tome");
             }
-        }
-        private static void StartUpInfo()
-        {
-            Console.WriteLine("This is a discord black desert online bot");
-            Console.WriteLine();
-            Console.WriteLine("Currently active in servers: ");
-            foreach (var server in bot.Servers)
+            if (e.Message.Text.Contains("Viktor"))
             {
-                Console.WriteLine("- " + server.Name);
+                e.Channel.SendMessage("Viktor is such a lovely person, all hail Viktor.");
             }
 
+        }
+        private static void Bot_NewUser(object sender, UserEventArgs e)
+        {
+            e.Server.DefaultChannel.SendMessage(e.User.Mention + " Welcome to our stronghold!");
         }
     }
 }

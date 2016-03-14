@@ -20,9 +20,14 @@ namespace Virbot
         private static void Bot_MessageReceived(object sender, MessageEventArgs e)
         {
             if (e.Message.IsAuthor) { return; }
-            if(e.Message.Text == "!test")
+            if(e.Message.Text == "!help")
             {
-                e.Message.Channel.SendMessage(e.User.Mention + "Testing... Testing... Is this on?");
+                e.Message.Channel.SendMessage
+                    (
+                    e.User.Mention + " Needs backup, let's help! \n !commands : Shows you a list of all commands \n !bdo : Shows you all the commands for Black Desert Online" 
+                    );
+
+
             }
 
         }

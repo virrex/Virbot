@@ -11,8 +11,7 @@ namespace Virbot
     {
         static void Main(string[] args)
         {
-            Functions f = new Functions();
-            f.Setup();
+            Setup.Start();
         }
     }
 }

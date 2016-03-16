@@ -7,28 +7,10 @@ using System.Threading.Tasks;
 
 namespace Virbot
 {
-    class Functions
+     static class SendMessage
     {
-        private string pw = "Kappa123";
-        private string user = "virbot123@gmail.com";
-        private string[] cmd = { "1", "2", "3" };
-        DiscordClient bot;
-        public void Setup()
-        {
-            try
-            {
-                bot = new DiscordClient();
-                bot.MessageReceived += Bot_MessageReceived;
-                bot.UserJoined += Bot_NewUser;
-                bot.Connect(user, pw);
-                bot.Wait();
-            }
-            catch (Exception)
-            {
-                throw;
-            }
-        }
-        public void Bot_MessageReceived(object sender, MessageEventArgs e)
+        static string[] cmd = { "1", "2", "3" };
+        public static void Bot_MessageReceived(object sender, MessageEventArgs e)
         {
             if (e.Message.IsAuthor) { return; }
             if (e.Message.Text.ToLower().Contains("!help"))
@@ -58,10 +40,6 @@ namespace Virbot
                 e.Channel.SendMessage("Viktor is such a lovely person, all hail Viktor.");
             }
 
-        }
-        public void Bot_NewUser(object sender, UserEventArgs e)
-        {
-            e.Server.DefaultChannel.SendMessage(e.User.Mention + " Welcome to our community! \n Type " + " !help " + " to get help from Virbot Bestbot ");
         }
     }
 }
